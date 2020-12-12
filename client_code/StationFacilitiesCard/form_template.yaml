@@ -1,0 +1,212 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{"JGVLDE":72,"YTBJPG":3,"AFUXVP":5}'}
+components:
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_2
+  layout_properties: {grid_position: 'WEMNCJ,AFUXVP'}
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"YYFGXG":70,"FFCMGJ":5,"TYQHTY":5,"THGRKL":20,"JLNUCE":20,"MGFQBH":20}',
+    spacing_below: small, background: '#e3f5e9'}
+  name: column_panel_1
+  layout_properties: {grid_position: 'WEMNCJ,JGVLDE'}
+  components:
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_4
+    layout_properties: {grid_position: 'SVYIAD,TYQHTY'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Station_name at a glance, font_size: 25, font: Verdana,
+      spacing_above: small, icon_align: left, spacing_below: medium, italic: false,
+      background: '', bold: true, underline: false, icon: ''}
+    name: card_header
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG NQECJX,CRUJKE'}
+  - type: GridPanel
+    properties: {spacing_above: small, spacing_below: small, background: '', foreground: '',
+      border: '', visible: true, role: null, tooltip: ''}
+    name: grid_panel_1
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG ZOIFRR,THGRKL ZEZOHZ,AHEYPA'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 51, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/ticket_office_black.png, spacing_below: small, background: '',
+        horizontal_align: right}
+      name: ticket_office_img
+      layout_properties: {row: LHDRHS, width_xs: 4, col_xs: 0, width: 33.4375}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Ticket Office, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: ticket_office_label
+      layout_properties: {row: LHDRHS, width_xs: 8, col_xs: 4, width: 90.04166412353516}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_6
+    layout_properties: {row: BRJKPP, width_xs: 11, col_xs: 0, grid_position: 'SVYIAD,YYFGXG
+        ZOIFRR,THGRKL VAHXDU,QIJDNT'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 57, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/ticket_machine_black.png, spacing_below: small, background: '',
+        horizontal_align: right}
+      name: ticket_machine_img
+      layout_properties: {row: CGDYZK, width_xs: 4, col_xs: 0, width: 33.4375}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Ticket Machine, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: ticket_machine_label
+      layout_properties: {row: CGDYZK, width_xs: 7, col_xs: 4, width: 75.04166412353516}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_4
+    layout_properties: {row: TMLARX, width_xs: 12, col_xs: 0, grid_position: 'SVYIAD,YYFGXG
+        ZOIFRR,THGRKL GOTDSB,HZFVWM'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 54, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: _/theme/prepurchase_collection_black.png, spacing_below: small, background: '',
+        horizontal_align: right}
+      name: prepurchase_collection_img
+      layout_properties: {row: BLHKJD, width_xs: 4, col_xs: 0, width: 33.4375}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Prepurchase Collection, font_size: null, font: Verdana,
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: prepurchase_collection_label
+      layout_properties: {row: BLHKJD, width_xs: 8, col_xs: 4, width: 90.04166412353516}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_2
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG ZOIFRR,JLNUCE ZPSAEW,XYELZF'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 52, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAZKADAAQAAAABAAAAZAAAAAAvu95BAAAFGUlEQVR4Ae1duY4VRxQdEBMZGckRDhDkBCy2wOTO2KwBIvwDyHwEgZcYYQeWiCxHTsz6FQyxGQIcsIgQA5ZA4OWc8UO673qqq17XMjX0udKV6nbVXeqcV7287n5vaUkiBISAEBACQkAICAEhIASEgBBoi8C2kemW4Xca+gX0E+ge6AfQKctLTP4R9C70V+gN6BtodSER96H/SAcxIEanoNVkOyJ/BxUR6Rj8Dby+hRK74iIy0onwH9pvSrPB3RTZtolewb4MPQqd+vEDEKxjQCyuQF9DLVbE7iS0iPAA7o8ZPHgdKBL9/QxyENMiRpaUNdjEMlvOIoINzJUhMuKwHsIQv1LOxN3iI37GEEsId1OSNAS+xzCL3U9pbsOj7rmgR4aHq9cg8JnD7jfTN7r5wgXdOTrS9ByJlV0hz2MQpFypM6CVFB87furthfCrcsEydQZy5i9CctCr4CtCKoCaE1KE5KBXwVeEVAA1J6QIyUGvgq8IqQBqTkgRkoNeBV8RUgHUnJA7cpwL+/or2sLhl/5EwIfQ36G3odeh/Ip8ywmBslprAjZHi/ZfmMgv0L21JjSL6+eSna54wEBFPk8rm1/4Fbubt8Hc/Dw2GLLYpuIBA+l9npY2V8vFQF25m/08cuPN7a4YvJb4wlvbJKXGYzt+Htn4FQ8YqMjn2Qz7D9T2caC+sZv9PAbj6LR3Hp4PYV6a39TWSrnZRIatpPjY8altnyfVr/S4twi4D/q4UGA/r0H8ttIK4URylJ/+FSgfxxkSXpvxObRuZaF9YMYsfB5vZ4Sec/0IFi8QfXxr35rzyDNsXLazpXjAQEU+j7cDbqM2n4OXj2/tIk+HzCqzcdnOluIBAxX5PN4OuI3azN2Xj2/t6NMhC2S1cdkelMEDzMzTB0nxGUwa6PR5/LDSeVvl83kG57GVDuqeoPfSFiGd0SpCREgXCOyKVMHHZzdFprpCPo+gXeoqPZJmXDfPEqyOixL3sjk2ascjpI3ghaF/Acnn04UhQPKgeDsN7vAoXnvwhZkYGcx7IRxm4Z6F5jF4TjxLzYBWUnzs+NS2z5PqV3qcvlwsjWhmvKvw1zEEIPilvRn2M9SxO5NQ7+7n4fvn7KmeZc2BMDP46vKX0Kcbdfa0bSGGMwr3eVravJ/+VUbtQ65+HkNjk/qKBwxk9Xla2dxNHQ/UVGKzn0d2zOIBAxX5PLVt/lLPj9DSDzX46fl5+P45m7crpyIvMVHeKXwA5aOkN6DdnU1tJUJqXf+Al35EZ1n9cLFeiQgRIZ0h0Fk5WiEipDMEOitHK0SEdIZAZ+VohYiQzhDorBytEBHSGQKdlaMVIkI6Q6CzcrRCREhnCHRWTk/3QyZxvyPGv3ZZMYQa94uQxoDH0omQGEKN+0VIY8Bj6URIDKHG/SKkMeCxdCIkhlDjfhHSGPBYOhESQ6hxfwoh/o1U/aFLOkl8jc5K9Cc7Ugh5YiOivd/ZMsMIeKw8lv/zTCFk1Xmdd7bMMAJ8AcjKHWuMbZ+Fo32knn+bx//pkwwjcBjdr6EWu5Vhl7TeZQzzrxI/wjaREsaPZPBVB0sGf8mOWBaRU4ji/3qV7F+BHoPqQP8fBsTiByixsWQQuxPQosJ/PbZJ1E7H4+uiTMyC8QSApPiVImLCxBArklH15ht3X2tQETGMATFaeDc1ljkenEgMf071U+ge6NSPI+/eYVwFFtegN6F8sVQiBISAEBACQkAICAEhIASEgBDoGoF/Ac4sORzozluEAAAAAElFTkSuQmCC',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: car_park_img
+      layout_properties: {row: KGPMLI, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '#000000',
+        visible: true, text: Car Park, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: car_park_label
+      layout_properties: {row: KGPMLI, width_xs: 7, col_xs: 5, width: 75.04166412353516}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_7
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG ZOIFRR,JLNUCE QNIDWE,FBJAUH'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 51, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,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',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: bus_services_img
+      layout_properties: {row: QUYNWA, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Bus Services, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: bus_services_label
+      layout_properties: {row: QUYNWA, width_xs: 7, col_xs: 5, width: 144.4791717529297}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_5
+    layout_properties: {row: BRUEGJ, width_xs: 12, col_xs: 0, grid_position: 'SVYIAD,YYFGXG
+        ZOIFRR,JLNUCE AKPFHV,ZEEYJN'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 53, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,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',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: cycle_storage_img
+      layout_properties: {row: LAWZFG, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Cycle Storage Availability, font_size: null, font: Verdana,
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: cycle_storage_label
+      layout_properties: {row: LAWZFG, width_xs: 7, col_xs: 5, width: 144.4791717529297}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_3
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG ZOIFRR,MGFQBH BVYWJQ,VOFECI'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 55, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAADbN2wMAAACwUlEQVRoBe1ZTUscQRDdaC6CHjyZTXYPegkEb15zC942Joj/wUOMGDEgBMzviCBBECFB8CAJ5CD4BwRRLx4ieBPiVwIeTNT4HthQ1PZ097g9ywxOwWP6q6pe1Xb19LCVSillBsoMZJmBOoyvAH9usYrnU6AQQvLHwH+FE/Q5l3th5jV50/+ae/YgyG1jCOvn71gBdMQylNIOA4oiWQaw7mD4wzGXmymeNixYvX2OMFbLDUsPEZ42LFjueeILUBjy4FpKmYF7mwEWr7kDmVOIL7ZC3IVI3nYHMoHk/i7kugOZIHJ9F3LdgUwA0e5CrRbpY4sBQ9L3tKi2b6gKV4vAhcWlj7iZt6i2Z2gMbk6BJCJm3PdsD1vlZRL9K0GeJLX4iJt5rZd5fxQeNPnCBMBi5clhssfnJTAHaJFrXG2tl2l/CdYlGZJvJHiU61ztBPX4w8z+X0CSmXW4ketcbYeJuFPvFfmf6Hc6XIS8yGyB7cPmsMPunae+QVM6nPZY4oVNrk/TPoNun8d+6ukDRWjIYyHpWzg0EL4go8o5rEnnvQHWeSM138JSN6R9Dd3nAT6Cl+g93ROsGbaQ9bQFyOB20H8Ypu5ftaeMP/OrpF7BjDPzMgi+9aPId1iRhqeiWG02wr0v/UQr6DfK8C76rmO0mVrYCE8fkpZBRCnoGoz+U4Yn0E8rH6EgyfEqrr8nuG3kmmgFPa8M0/kLIFReYaG+CC5YlFm4uqDZb7mgmSl9GjGIt4BrO3HuA8C7k8wsP/qTXliZFfRLONVZJCnWxDtgEOgGugCeVDMArweSONsM5jXgElnQa1g44FqcZo573xaEJpnUp+54gEP+OptAI2Bt6iU0qr8NkgjLcZ4wrIVcSBUsPgH6dJKETZu18hl4BESXBy1afAL9EYC/Sj9QB/ivzy9gG9gAloFDoJQyA2UGMsjADZn9kQh6l3E0AAAAAElFTkSuQmCC',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: step_free_access_img
+      layout_properties: {row: UVKVBX, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Step Free Access, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: step_free_access_label
+      layout_properties: {row: UVKVBX, width_xs: 7, col_xs: 5, width: 132.3333282470703}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_9
+    layout_properties: {row: ZOCTCY, width_xs: 11, col_xs: 0, grid_position: 'SVYIAD,YYFGXG
+        ZOIFRR,MGFQBH MRGQRR,BXJDXJ'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 50, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,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',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: toilets_img
+      layout_properties: {row: PSUVWP, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: Toilets, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: toilets_label
+      layout_properties: {row: PSUVWP, width_xs: 6, col_xs: 5, width: 132.3333282470703}
+  - type: GridPanel
+    properties: {}
+    name: grid_panel_8
+    layout_properties: {grid_position: 'SVYIAD,YYFGXG ZOIFRR,MGFQBH HEKTSH,DKLRUL'}
+    components:
+    - type: Image
+      properties: {role: null, vertical_align: center, height: 43, tooltip: '', border: '',
+        foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+        source: 'data:image/png;base64,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',
+        spacing_below: small, background: '', horizontal_align: center}
+      name: wifi_img
+      layout_properties: {row: QPPJPV, width_xs: 5, col_xs: 0, width: 49.3125}
+    - type: Label
+      properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+        visible: true, text: WiFi, font_size: null, font: Verdana, spacing_above: small,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: wifi_label
+      layout_properties: {row: QPPJPV, width_xs: 6, col_xs: 5, width: 132.3333282470703}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_3
+    layout_properties: {grid_position: 'SVYIAD,FFCMGJ'}
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_1
+  layout_properties: {grid_position: 'WEMNCJ,YTBJPG'}
+is_package: true
+custom_component: true

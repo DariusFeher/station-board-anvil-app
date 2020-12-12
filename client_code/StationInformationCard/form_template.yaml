@@ -1,0 +1,72 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{}'}
+components:
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"RCARCU":3,"YHQWJK":57}',
+    spacing_below: large, background: '#ebebeb'}
+  name: column_panel_1
+  layout_properties: {grid_position: 'KBSLUU,RVZFZI'}
+  components:
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_1
+    layout_properties: {grid_position: 'FGYOYI,RCARCU'}
+  - type: Label
+    properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: Name of the station, font_size: 25, font: Verdana, spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: station_name_label_1
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK VKKSGV,BHFHJS'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Station name, font_size: null, font: Verdana, spacing_above: none,
+      icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: station_name_label_2
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK PYJJLO,WTTBQA'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Street / Number, font_size: null, font: Verdana, spacing_above: none,
+      icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: street_number_label
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK NIKQZU,JTJHHF'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: City, font_size: null, font: Verdana, spacing_above: none,
+      icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: city_label
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK CNQOSM,VWYEMJ'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: County, font_size: null, font: Verdana, spacing_above: none,
+      icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: county_label
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK CBVCVQ,YNFZSW'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Postcode, font_size: null, font: Verdana, spacing_above: none,
+      icon_align: left, spacing_below: large, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: postcode_label
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK BUCMGH,JYAMRR'}
+  - type: Link
+    properties: {col_widths: '{}'}
+    name: goToGoogleMaps_link
+    layout_properties: {grid_position: 'FGYOYI,YHQWJK IPPKIH,NKMMWB'}
+    components:
+    - type: Button
+      properties: {role: null, align: left, tooltip: '', border: '', enabled: true,
+        foreground: '', visible: true, text: GET DIRECTIONS, font_size: null, font: Verdana,
+        spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        background: '#e3f5e9', bold: true, underline: false, icon: ''}
+      name: get_directions_button
+      layout_properties: {grid_position: 'DJCGKP,OKDDDG'}
+    event_bindings: {click: goToGoogleMaps_link_click}
+is_package: true
+custom_component: true

@@ -1,0 +1,52 @@
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: false}
+startup: {type: form, module: LandingPage}
+package_name: Station_Board
+allow_embedding: false
+name: Station Board
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox}
+metadata: {}
+startup_form: BuyTicketsCard
+native_deps: {head_html: '<meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="_/theme/theme.css">'}
+db_schema:
+- name: Stations
+  id: 85175
+  python_name: stations
+  columns:
+    8quXIjsl+6o=:
+      name: Coordinates
+      type: string
+      admin_ui: {order: 2, width: 200}
+    LJ65jOh227k=:
+      name: Name
+      type: string
+      admin_ui: {order: 0, width: 200}
+    eO7KH7mEs98=:
+      name: AvailableFacilities
+      type: liveObjectArray
+      backend: anvil.tables.Row
+      admin_ui: {order: 3, width: 200}
+      table_id: 85174
+    zH2pxbN2chc=:
+      name: Address
+      type: string
+      admin_ui: {order: 1, width: 582.3333332538605}
+  access: {python_name: stations, app_id: Y5I2KYLF6P5KNKHW, server: full, client: full,
+    table_mapping_name: null, table_mapping_id: null, table_id: 85175}
+- name: Facilities
+  id: 85174
+  python_name: facilities
+  columns:
+    h+Eu8aQEce0=:
+      name: Facility
+      type: string
+      admin_ui: {order: 0, width: 200}
+  access: {python_name: facilities, app_id: Y5I2KYLF6P5KNKHW, server: full, client: full,
+    table_mapping_name: null, table_mapping_id: null, table_id: 85174}
+renamed: true

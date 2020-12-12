@@ -1,0 +1,96 @@
+container:
+  type: ColumnPanel
+  properties: {col_widths: '{"KIZVFD":82,"KTCVOD":3,"JHTSCF":3}'}
+components:
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_2
+  layout_properties: {grid_position: 'QHXCCQ,JHTSCF'}
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"KRNRPP":70,"PDATTS":5,"VCDVSH":5}',
+    spacing_below: small, background: '#131e29'}
+  name: column_panel_1
+  layout_properties: {grid_position: 'QHXCCQ,KIZVFD'}
+  components:
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_4
+    layout_properties: {grid_position: 'UMJQDX,VCDVSH'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '#ffffff',
+      visible: true, text: BUY TICKETS, font_size: 25, font: Verdana, spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: buy_tickets_label
+    layout_properties: {grid_position: 'UMJQDX,KRNRPP NUVECX,FVZXPN'}
+  - type: DropDown
+    properties:
+      role: null
+      align: full
+      tooltip: ''
+      placeholder: Departing Station
+      border: ''
+      enabled: true
+      foreground: ''
+      items: []
+      visible: true
+      font_size: null
+      font: Verdana
+      spacing_above: small
+      spacing_below: small
+      italic: false
+      background: ''
+      bold: false
+      underline: false
+      include_placeholder: true
+    name: departing_station_drop_down
+    layout_properties: {grid_position: 'UMJQDX,KRNRPP OVPFRC,TBMBVQ'}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: 61, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+      source: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAMKADAAQAAAABAAAAMAAAAADbN2wMAAACIklEQVRoBe2ZMU4DMRBFEyASTSK4QJrcIVW4BXRwBDqknAApV6BFVLkFiII70HACJFoCWv5YIA0/tuVZG5zCK40045153x6vrNXucGC4uq7bQ/oQ16ehLCkV7E4nioiOQ75MyHJdIvnKUrAzuWjQHPb+bfPSEwP311WUD/IY9qwUxB+XFFFs55ZkD0C8YQEZKynC/GJsgE8ZruKzUkKK6dwiXJCmsFeGq1juTUuIKaZzs5mg7MPuGeyJHyQ3V5C5uTx57pcMjcTLXEFmZ/EA+zkymRuK5XjNOloZ3HsBAE1g+shkdiiWmklfYYb25cijc8cwQ3zbV5g1UjlJ7xsCEwENTX1X0TUxvy/f+i4Um0OVe20BVdquRNsOqGZUcdsOVGm7Em07oJpRxW07UKXtSrTtgGpGFbftQJW2K9G2A6oZVdy2A1XarkTbDqhmVHHbDlRpuxL99x3A9x/vhzM1J+fKdyLPtea85JhhyYWUCI58unxhXkIsNceESw9ZIL1yOxOsE9iGmZH4Q2q2SYYRhhtKvangrZgZiVdeiGWQ4ZZaXy54I9gTcz2x5Ix8DNMYg03FgWQwZ7A3ZqtY7s0C5bZhBXWurTqcDdg5s1V8Ea403lFQ5xrLo+kArpkvY9Ei600WsNbH8sE+gumjNe/I9In95QJED/wFTI5WsYVvDr6xA99gjTH88XnExK+hfSh+6hx25heTTBgLkP/Ne1jAJnUBX3pPWy2tkDVpAAAAAElFTkSuQmCC',
+      spacing_below: small, background: '', horizontal_align: center}
+    name: transfer_arrows
+    layout_properties: {grid_position: 'UMJQDX,KRNRPP GNTMBV,OOGOCJ'}
+    event_bindings: {mouse_down: transfer_arrows_mouse_down}
+  - type: DropDown
+    properties:
+      role: null
+      align: full
+      tooltip: ''
+      placeholder: Arrival Station
+      border: ''
+      enabled: true
+      foreground: ''
+      items: []
+      visible: true
+      font_size: null
+      font: Verdana
+      spacing_above: small
+      spacing_below: small
+      italic: false
+      background: ''
+      bold: false
+      underline: false
+      include_placeholder: true
+    name: arrival_station_drop_down
+    layout_properties: {grid_position: 'UMJQDX,KRNRPP NCVDKI,HTDUCN'}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '#ffffff', visible: true, text: BUY TICKETS, font_size: null, font: Verdana,
+      spacing_above: medium, icon_align: left, spacing_below: large, italic: false,
+      background: '#ff4712', bold: false, underline: false, icon: ''}
+    name: buy_tickets_button
+    layout_properties: {grid_position: 'UMJQDX,KRNRPP YHPBWR,CHDMDF'}
+    event_bindings: {click: buy_tickets_button_click}
+  - type: Spacer
+    properties: {height: 32}
+    name: spacer_3
+    layout_properties: {grid_position: 'UMJQDX,PDATTS'}
+- type: Spacer
+  properties: {height: 32}
+  name: spacer_1
+  layout_properties: {grid_position: 'QHXCCQ,KTCVOD'}
+is_package: true
+custom_component: true
